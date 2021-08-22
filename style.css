@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    /* height: 200vh; */
+    /* background-color: black;
+    color: white; */
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.topmost-header{
+    border: none;
+    color: white;
+    background-color: black;
+    background-position:top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.shapes{
+    border: 2px solid black;
+    font-size: 3rem;
+    padding: 5%;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5;
+}
+.getsarted{
+    border: 2px solid white;
+    padding: 1%;
+    border-radius: 50rem;
+    text-align: center;
+    width: 10rem;
+    margin-top: 3rem;
+}
+.steps{
+    /* border: 2px solid whitesmoke; */
+    color: white;
+    background-color: brown;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 8% 15%;
+}
+.works{
+   /* border: 2px solid black; */
+   display: block;
+   background-color: brown;
+   text-align: center;
+   padding: 2% 5%;
+   color: white;
+   font-weight: bolder;
+  font-size: 3rem;
+   width: 100%;
+}
+.icon{
+    /* height: 80px;
+    width: 80px; */
+    width: 35%;
+    margin-bottom: 1.5rem;
+   border: 1px solid white;
+   padding: 10%;
+   border-radius: 5px;
+}
+.btn-collection{
+    /* border: 2px solid black; */
+    align-items: left;
+    width: auto;
+}
+.wrapper{
+    border: 2px solid whitesmoke;
+    width: auto;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    border-radius:  30px 0 30px 0;
+}
+.btn-all{
+    padding: 2%;
+    width: 10rem;
+    background-color: green;
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    border: none;
+}
+.areaOfrec{
+    color: brown;
+    margin-top: 2rem;
+    /* border: 2px solid black; */
+    width: auto;
+}
+/* .btn-rect:focus{
+    outline: none;
+} */
+input{
+    padding: 2.5%;
+    width: 15rem;
+    border: none;
+   border-bottom: 2px solid purple;
+   
+}
+.input-wrapper{
+    margin-top: 3rem;
+    /* border: 2px solid black; */
+    width: auto;
+}
+input:focus{
+    outline: none;
+}
+label{
+    font-weight: bolder;
+    color: green;
+}
+.workings{
+display: none;
+line-height: 2;
+margin-top: 3rem;
+margin-bottom: 3rem;
+}
+.hideWorkings{
+    padding: 3%;
+    width: 10rem;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+}
+.hideWorkingsSqr,.hideWorkingsCir,.hideWorkingsTrap {
+    padding: 3%;
+    width: 10rem;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.showworking{
+    display: none;
+    padding: 1%;
+    width: 10rem;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    border: none;
+}
+.sqrshowworking, .cirshowworking, .trapshowworking{
+    display: none;
+    padding: 1%;
+    width: 10rem;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    border: none;
+}
+.reset,.resetSqr,.resetCirc,.resetTrap{
+    padding: 2%;
+    width: 10rem;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    border: none;
+}
+.workingSqr{
+display: none;
+line-height: 2;
+margin-top: 3rem;
+margin-bottom: 3rem;
+}
+.workingCir{
+display: none;
+line-height: 2;
+margin-top: 3rem;
+margin-bottom: 3rem;
+}
+.workingtrap{
+ display: none;
+line-height: 2;
+margin-top: 3rem;
+margin-bottom: 3rem;
+}
+/* .select-btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+} */
+.shape-description{
+    margin-bottom: 2rem;
+}
+.btn-submit{
+    padding: 4%;
+    width: 10rem;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+.container{
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-between;
+    padding: 4% 10%;
+    margin-top: 3rem;
+}
+.cont{
+    display: none;
+}
+.close-box{
+    display: none;
+}
+.radio{
+    /* border: 2px solid black; */
+    display: flex;
+    /* justify-content: space-around; */
+}
+.box{
+    border: 2px solid red;
+    width: 15px;
+    height: 15px;
+    margin-left: 60px;
+}
+.boxr{
+    border: 2px solid red;
+    width: 15px;
+    height: 15px;
+    margin-left: 30px;
+}
+.boxs{
+    border: 2px solid red;
+    width: 15px;
+    height: 15px;
+    margin-left: 50px;
+}
+.boxt{
+    border: 2px solid red;
+    width: 15px;
+    height: 15px;
+    margin-left: 28px;
+}
+.btn-submit:focus{
+    outline: none;
+}
+.circle{
+    display: none;
+}
+.sqaure{
+    display: none;
+}
+.rectangle{
+    display: none; 
+}
+.trapezium {
+    display: none;
+}
+.open-the-box{
+    /* border: 2px solid black; */
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 10rem;
+    padding: .7%;
+    margin-top: 3rem;
+}
+.open-the-box p{
+    margin-top: .3rem;
+}
+@media screen and (max-width: 700px){
+    .steps{
+      flex-direction: column;
+    }
+    .icon{
+        width: 30%;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+    }
+    .getsarted{
+        padding: 3%;
+        margin-top: 0rem;
+        margin-bottom: 5%;
+    }
+    .topmost-header{
+        height: auto;
+    }
+    .shapes{
+        border: 2px solid black;
+        font-size: 2rem;
+        padding: 5%;
+        width: 100%;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
+footer{
+    /* border: 2px solid black; */
+    text-align: center;
+    width: 100%;
+    padding: 5% 15%;
+    color: white;
+    margin-top: 3rem;
+    background-color: black;
+}
+
+.horizontal{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+   
+}

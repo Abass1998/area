@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topmost-header">
+        <h1 class="shapes">Solve the area of simple shapes in Mathematics</h1>
+        <p class="getsarted">Get started</p>
+    </div>
+    <h1 class="works">How it work</h1>
+    <hr>
+    <div class="steps">
+        <div>
+            <img src="images/open-box (1).png" alt="open" class="icon">
+            <p>Open the box</i></p>
+        </div>
+        <div>
+            <img src="images/check (1).png" alt="check" class="icon">
+            <p>Check in a shape</p>
+        </div>
+        <div>
+           
+            <img src="images/enter.png" alt="" class="icon">
+            <p>Submit</p>
+        </div>
+        <div>
+           
+            <img src="images/calculator.png" alt=""class="icon" >
+            <p>Claculate</p>
+        </div>
+    </div>
+ <button class="open-the-box box-final"><i class="fa fa-arrow-circle-down" style="font-size:36px"></i> <p>Open the Box</p></button>
+ <button class="open-the-box close-box "> <p>close the Box</p> <i class="fa fa-arrow-circle-up" style="font-size:36px"></i> </button>
+<div class="container cont">
+    <div class="radio">
+        <label>Rectangle</label>
+        <input type="radio" id="Rectangle" name="shapes" value="Rectangle" class="boxr">
+    </div>
+   
+    <div class="radio">
+        <label>Circle</label>
+        <input type="radio" id="Circle" name="shapes" value="Circle" class="box">
+    </div>
+   
+    <div class="radio">
+    <label>Sqaure</label>
+    <input type="radio" id="Sqaure"name="shapes" value="Sqaure" class="boxs">
+    </div>
+
+    <div class="radio">
+        <label>Trapezium</label>
+        <input type="radio" id="Trapezium"name="shapes" value="Trapezium" class="boxt">
+        </div>
+    <div> <button class="btn-submit">Submit</button></div>
+ 
+</div>
+  
+    <div class="rectangle wrapper top">
+        <h1 class="areaOfrec">Area of Rectangle</h1>
+        <div class="input-wrapper">
+            <label> Length (cm)</label>
+       <input type="text" class="length" placeholder="Enter length">
+        </div>
+
+        <div class="input-wrapper" >
+            <label>Breadth(cm)</label>
+       <input type="text" class="bredth" placeholder="Enter breadth">
+        </div> 
+        <div class="btn-collection">
+            <button class="btn-rect btn-all">Area</button>
+            <button class="reset">Reset</button>
+        </div>
+        <p class="recResult"></p>
+        <button class="showworking"> Show workings</button>
+        <div class="workings">
+        <h1>Workings</h1>
+        <p>Area of a Rectangle is given below</p>
+        <p>Area = (L * B)cm²</p>
+        <p>Where L stands for length in (cm)</p>
+        <p>Where B stands for Breadth in (cm)</p>
+        <p class="lengthRec"></p>
+        <p class="BreadthRec"></p>
+        <p class="recResultt"></p>
+        <button class="hideWorkings">Hide Workings</button>
+        </div>
+
+    </div>
+
+
+
+    <div class="sqaure  wrapper">
+        <h1 class="areaOfrec">Area of Square</h1>
+        <div class="input-wrapper">
+            <label> Length (cm)</label>
+       <input type="text" class="l">
+        </div>
+        <div class="btn-collection">
+            <button class="SqrArea  btn-all">Area</button>
+            <button class="resetSqr">Reset</button>
+        </div>
+        <p class="sqrResult"></p>
+        <button class="sqrshowworking"> Show workings</button>
+        <div class="workingSqr">
+            <h1>Workings</h1>
+            <p>Area of a Square is given below</p>
+            <p>Area = (L²)cm²</p>
+            <p>Where L stands for length in (cm)</p>
+            <p class="lengthSqr"></p>
+            <p class="SqrResultt"></p>
+            <button class="hideWorkingsSqr">Hide Workings</button>
+            </div>
+    </div>
+
+
+    <div class="circle  wrapper"> 
+        <h1 class="areaOfrec">Area of a Circle</h1>
+        <div class="input-wrapper">
+            <label> Radius (cm)</label>
+       <input type="text" class="radiusValue">
+        </div>
+        <div class="btn-collection">
+            <button class="circleArea  btn-all">Area</button>
+            <button class="resetCirc">Reset</button>
+        </div>
+        <p class="CirResult"></p>
+        <button class="cirshowworking"> Show workings</button>
+        
+        <div class="workingCir">
+            <h1>Workings</h1>
+            <p>Area of a Circle is given below</p>
+            <p>Area = (	πr²)cm²</p>
+            <p>Where r stands for radius in (cm) and π is a constant</p>
+            <p class="lengthCir"></p>
+            <p class="CirResultt"></p>
+            <button class="hideWorkingsCir">Hide Workings</button>
+        </div>
+    </div>
+
+
+    <div class="trapezium  wrapper"> 
+        <h1 class="areaOfrec">Area of a Trapezium</h1>
+        <div class="input-wrapper">
+            <label> Length (cm)</label>
+       <input type="text" class="traplengthValue">
+        </div>
+
+        <div class="input-wrapper">
+            <label> Breadth (cm)</label>
+       <input type="text" class="trapbreadthValue">
+        </div>
+
+        <div class="input-wrapper">
+            <label> Height (cm)</label>
+       <input type="text" class="trapheightValue">
+        </div>
+
+        <!-- <p class="trapResult"></p> -->
+        <div class="btn-collection">
+            <button class="trapArea  btn-all">Area</button>
+            <button class="resetTrap">Reset</button>
+        </div>
+        <p class="trapResult"></p>
+        <button class="trapshowworking"> Show workings</button>
+
+        <div class="workingtrap">
+            <h1>Workings</h1>
+            <p>Area of a trapezium is given below</p>
+            <p>Area = 1/2(a+b)h cm²</p>
+            <p>Where a, b and h stands for length, breadth, and height in (cm)</p>
+            <p class="traplength"></p>
+            <p class="trapbreadth"></p>
+            <p class="trapheight"></p>
+            <p class="trapResultt"></p>
+            <button class="hideWorkingsTrap">Hide Workings</button>
+        </div>
+    </div>
+
+<footer>
+    <h3>Curated by Alhabaze  &#128526;</h3>
+    <hr class="horizontal">
+    <p>	&#169; 2021</p>
+</footer>
+    <script src="app.js"></script>
+</body>
+</html> 
